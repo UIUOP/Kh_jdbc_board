@@ -5,6 +5,7 @@ import com.kh.utill.Common;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
+import java.util.Scanner;
 
 public class JdbcMain {
     public static void main(String[] args) {
@@ -27,8 +28,9 @@ public class JdbcMain {
            e.printStackTrace();
        }
 
-
-
+        Scanner sc = new Scanner(System.in);
+        System.out.println("회원가입 정보를 입력하세요");
+        System.out.println("회원번호 : ");
 
 
     }
