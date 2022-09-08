@@ -28,9 +28,6 @@ public class JdbcMain {
            e.printStackTrace();
        }
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("회원가입 정보를 입력하세요");
-        System.out.println("회원번호 : ");
 
 
     }
